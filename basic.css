@@ -1,9 +1,19 @@
 body {
-	background-image: url("img/blue_sky.jpg");
+	/*background-image: url("img/blue_sky.jpg");
+    background-repeat: repeat-x;*/
+    background-color: lightblue;
+}
+
+p {
+    font-size: 200%;
 }
 
 h1 {
 	text-align: center;
+}
+
+pre {
+    font-size: 150%;
 }
 
 table, th, td {
@@ -34,3 +44,6 @@ li a:hover {
     background-color: #111;
 }
 
+hr {
+    padding: 0px
+}
